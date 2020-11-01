@@ -1,6 +1,6 @@
-Parkinson’s Disease Classification
+#**Parkinson’s Disease Classification**
 
-About Parkinson Disease →
+##About Parkinson Disease →
 Parkinson's disease is a brain disorder that leads to shaking, stiffness, and difficulty
 with walking, balance, and coordination. Parkinson's symptoms usually begin
 gradually and get worse over time. As the disease progresses, people may have
