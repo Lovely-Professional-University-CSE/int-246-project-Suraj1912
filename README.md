@@ -66,6 +66,17 @@ our model can efficiently do better job and give higher accuracy for same.
 Now our data is ready and waiting to impose on model to do classification.
 In this I have used Multilayer Perceptron, Support Vector Machine, SelfOrganizing Maps and Learning Vector Quantization.
 
+## Libraries
+
+Python libraries are used
+```
+1. numpy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+5. Minisom
+6. Streamlit
+```
 
 ## Requirements
 
@@ -74,3 +85,9 @@ To run the software once need to install required libraries. For that simply run
 pip install -r requirements.txt
 ```
 
+## Run on Local Machine
+
+Clone repo from here and navigate to directory streamlit Web App then run command 
+```
+streamlit run app.py
+```
