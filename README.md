@@ -33,3 +33,44 @@ information for PD assessment. There are 754 features applied on 756 peoples to
 tell whether it is Parkinson patient or not.
 
 
+## Steps to Classify →
+
+I was perform different tasks to classify the Parkinson patients.
+
+1. Load dataset
+Loaded Parkinson disease speech dataset from Kaggle
+
+2. Exploring dataset → check any null values, shape, columns, summary
+Checked dataset shape having 756 rows and 755 columns. There are no null
+values in dataset. Also having one class column with 0 and 1 values that’s
+basically our label.
+
+3. Exploratory Data Analysis → draw different plots univariate, bivariate
+This step plays an important role in making classification model. In dataset
+id column is numeric, gender is categorical in nature while others have
+columns have continuous values. To check for strong relation in columns I
+used correlation matrix. Different plots such as countplot, scatterplot,
+distplot, boxplot is used for detecting any outliers, distribution in columns.
+
+4. Feature Selection
+From above step I know all about the data so, now I can easily drop those
+columns which are not much responsible to classify. For that I used
+SelectKBest module from sklearn library in python. This gives me the
+features with the scores which are needed for the labels.
+
+5. Standardization
+To keep data on same scale we require to standardize the data. By doing this
+our model can efficiently do better job and give higher accuracy for same.
+
+6. Modelling
+Now our data is ready and waiting to impose on model to do classification.
+In this I have used Multilayer Perceptron, Support Vector Machine, SelfOrganizing Maps and Learning Vector Quantization.
+
+
+## Requirements
+
+To run the software once need to install required libraries. For that simply run command in cmd
+```
+pip install -r requirements.txt
+```
+
