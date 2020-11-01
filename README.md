@@ -72,12 +72,13 @@ In this I have used Multilayer Perceptron, Support Vector Machine, SelfOrganizin
 
 Python libraries are used
 ```
-1. numpy
-2. Pandas
-3. Matplotlib
-4. Seaborn
-5. Minisom
-6. Streamlit
+1. numpy  # For arrays manipulation
+2. Pandas  # For data manipulation
+3. Matplotlib # For plots
+4. Seaborn  # For plots
+5. Scikit-learn  # For python pre-defined libraries
+5. Minisom   # For SOM implementation
+6. Streamlit  # For front end model delivery
 ```
 
 ## Requirements
