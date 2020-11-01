@@ -91,3 +91,8 @@ Clone repo from here and navigate to directory streamlit Web App then run comman
 ```
 streamlit run app.py
 ```
+
+## Specifications
+
+1. Windows 8 and Above
+2. Python3.6 or later 64-bit
